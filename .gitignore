@@ -1,0 +1,4 @@
+node_modules
+# Should not be ignored normally
+# (But can cause merge conflicts)
+package-lock.json

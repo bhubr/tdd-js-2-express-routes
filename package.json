@@ -1,0 +1,23 @@
+{
+  "name": "tdd-js-2-express-routes",
+  "version": "1.0.0",
+  "description": "Test an Express application's routes with Mocha, Chai and Chai HTTP",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon app",
+    "test": "npx mocha --exit test/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  }
+}
